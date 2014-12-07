@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ld31</title>
+    
+    <script async type="application/dart" src="ld31.dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+    
+    <link rel="stylesheet" href="ld31.css">
+  </head>
+  <body>
+    <div id="header">
+      <h1>No Idea Man</h1>
+      <h2>A game for Ludum Dare 31</h2>
+    </div>
+    <div id="game">
+      <canvas id="canvas" width="800" height="450" oncontextmenu="return false;">Your browser doesn't support the HTML5 canvas.</canvas>
+      <div id="menu">
+        <div id="start"></div>
+        <div id="difficulty">
+          <div id="easy" class="easy_"></div>
+          <div id="hard" class="hard"></div>
+        </div>
+        <div id="dont" onclick="alert('Why not? :(')"></div>
+      </div>
+    </div>
+    <div id="footer">
+      phi&nbsp;&nbsp;|&nbsp;&nbsp;2014/12/06-07
+    </div>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+body {
+  background-color: #DAE8F2;
+}
+
+h1 {
+  font-family: Century Gothic;
+  font-weight: normal;
+  font-size: 60px;
+  text-align: center;
+  line-height: 20px;
+  color: #4892C4;
+}
+
+h2 {
+  font-family: Century Gothic;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  line-height: 20px;
+  color: #91BAD8;
+}
+
+#header {
+  width: 800px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 2px solid #93BDDA;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+}
+
+#game {
+  width: 800px;
+  height: 450px;
+  margin: auto;
+  padding: 0;
+  border: 2px solid #93BDDA;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+}
+
+#canvas {
+  cursor: crosshair;
+}
+
+#start {
+  width: 268px;
+  height: 149px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("play.png");
+}
+#start:hover {
+  background-image: url("play_.png");
+}
+
+#dont {
+  width: 268px;
+  height: 149px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("dont-play.png");
+}
+#dont:hover {
+  background-image: url("dont-play_.png");
+}
+
+#difficulty {
+  width: 268px;
+  height: 95px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#easy {
+  float: left;
+  width: 134px;
+  height: 95px;
+}
+
+.easy {
+  background-image: url("easy.png");
+}
+.easy:hover {
+  background-image: url("easy_.png");
+}
+
+.easy_ {
+  background-image: url("easy_.png");
+}
+
+#hard {
+  float: left;
+  width: 134px;
+  height: 95px;
+}
+
+.hard {
+  background-image: url("hard.png");
+}
+.hard:hover {
+  background-image: url("hard_.png");
+}
+
+.hard_ {
+  background-image: url("hard_.png");
+}
+
+#footer {
+  width: 800px;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #93BDDA;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  font-family: Century Gothic;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+  color: #4892C4;
+}
